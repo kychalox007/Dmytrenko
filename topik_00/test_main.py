@@ -1,9 +1,12 @@
-"""Топік 2: тести методів рядків Python."""
-
 import unittest
 
+from topik_00.main import discriminant, reverse_string
 
-class StringMethodTests(unittest.TestCase):
+
+class TopicOneTests(unittest.TestCase):
+    def test_reverse_string(self):
+        self.assertEqual(reverse_string("Python"), "nohtyP")
+
     def test_strip(self):
         self.assertEqual("  Hello, World! \n".strip(), "Hello, World!")
 
@@ -18,6 +21,9 @@ class StringMethodTests(unittest.TestCase):
 
     def test_lower(self):
         self.assertEqual("PyThOn 3.12".lower(), "python 3.12")
+
+    def test_discriminant(self):
+        self.assertEqual(discriminant(1, -3, 2), 1)
 
 
 if __name__ == "__main__":
