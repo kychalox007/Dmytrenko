@@ -1,6 +1,6 @@
 import unittest
 
-from topik_00.main import discriminant, reverse_string
+from topik_01.main import discriminant, reverse_string
 
 
 class TopicOneTests(unittest.TestCase):
@@ -28,3 +28,4 @@ class TopicOneTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
