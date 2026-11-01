@@ -9,7 +9,7 @@
 Запуск з кореня репозиторію:
 
 ```bash
-python lab_04/rpn_calculator.py
+python labs/lab_04/rpn_calculator.py
 ```
 
 Для виразу `3 + 4 * 2 / (1 - 5) ^ 2` програма виводить `3 4 2 * 1 5 - 2 ^ / +` та результат `3.5`.

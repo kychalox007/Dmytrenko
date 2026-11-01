@@ -1,5 +1,5 @@
-from lab_03.main import main
-from lab_03.utils import Utils
+from labs.lab_03.main import main
+from labs.lab_03.utils import Utils
 
 
 def test_main_saves_changes_before_exit(tmp_path, monkeypatch):

@@ -2,7 +2,7 @@ import csv
 
 import pytest
 
-from lab_02.phonebook import (
+from labs.lab_02.phonebook import (
     add_student,
     delete_student,
     load_students,

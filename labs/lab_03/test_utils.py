@@ -2,9 +2,9 @@ import csv
 
 import pytest
 
-from lab_03.student import Student
-from lab_03.student_list import StudentList
-from lab_03.utils import Utils
+from labs.lab_03.student import Student
+from labs.lab_03.student_list import StudentList
+from labs.lab_03.utils import Utils
 
 
 def test_load_students_creates_sorted_student_objects(tmp_path):

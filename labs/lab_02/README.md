@@ -15,11 +15,11 @@ python -m pip install pytest
 Запуск програми з кореня репозиторію:
 
 ```bash
-python lab_02/phonebook.py lab_02/lab2.csv
+python labs/lab_02/phonebook.py labs/lab_02/lab2.csv
 ```
 
 Запуск тестів з кореня репозиторію:
 
 ```bash
-python -m pytest lab_02/test_phonebook.py
+python -m pytest labs/lab_02/test_phonebook.py
 ```

@@ -1,5 +1,5 @@
-from lab_03.student import Student
-from lab_03.student_list import StudentList
+from labs.lab_03.student import Student
+from labs.lab_03.student_list import StudentList
 
 
 def test_add_keeps_students_sorted_and_rejects_duplicate():

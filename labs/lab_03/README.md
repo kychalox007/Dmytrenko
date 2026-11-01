@@ -9,11 +9,11 @@
 Запуск програми з кореня репозиторію:
 
 ```bash
-python -m lab_03.main lab_03/lab3.csv
+python -m labs.lab_03.main labs/lab_03/lab3.csv
 ```
 
 Запуск тестів:
 
 ```bash
-python -m pytest lab_03
+python -m pytest labs/lab_03
 ```

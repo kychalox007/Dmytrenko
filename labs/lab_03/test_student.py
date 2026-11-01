@@ -1,6 +1,6 @@
 import pytest
 
-from lab_03.student import Student
+from labs.lab_03.student import Student
 
 
 def test_student_stores_all_fields():
