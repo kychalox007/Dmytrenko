@@ -1,13 +1,12 @@
-# Топік 2
+# Топік 1
 
-1. Знайти корені квадратного рівняння, використовуючи дискримінант із Топіка 1.
-2. Зробити калькулятор із `if` та `else`; кожна операція має окрему функцію.
-3. Зробити калькулятор із `match`; кожна операція має окрему функцію.
+1. Функція `reverse_string()` повертає рядок у зворотному порядку.
+2. Тести перевіряють методи `strip()`, `capitalize()`, `title()`, `upper()` і `lower()`.
+3. Функція `discriminant()` обчислює дискримінант за формулою `D = b² - 4ac`.
 
 Запуск із кореневої папки репозиторію:
 
 ```bash
-python -m topik_01.quadratic
-python -m topik_01.calculator_if
-python -m topik_01.calculator_match
+python -m topik_01.main
+python -m unittest topik_01.test_main -v
 ```

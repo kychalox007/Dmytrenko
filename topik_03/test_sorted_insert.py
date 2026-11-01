@@ -1,6 +1,6 @@
 import unittest
 
-from topik_02.sorted_insert import find_insertion_position
+from topik_03.sorted_insert import find_insertion_position
 
 
 class InsertionPositionTests(unittest.TestCase):

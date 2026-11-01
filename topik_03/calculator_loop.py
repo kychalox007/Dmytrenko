@@ -1,4 +1,4 @@
-from topik_01.calculator_match import calculate
+from topik_02.calculator_match import calculate
 
 
 def main():

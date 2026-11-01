@@ -1,6 +1,6 @@
 import math
 
-from topik_00.main import discriminant
+from topik_01.main import discriminant
 
 
 def find_roots(a, b, c):
